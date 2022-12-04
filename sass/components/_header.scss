@@ -10,26 +10,31 @@
 	border-bottom-width: 1px;
 }
 
+.header__block {
+	display: flex;
+	align-items: baseline;
+}
+
 .nav {
 	display: flex;
 	align-items: baseline;
 }
 
-.nav__list--site {
+.nav__list {
 	display: flex;
 	margin-left: 93px;
 	gap: 50px;
 }
 
-.nav__list--auth {
+.contacts {
 	display: flex;
 	align-items: center;
 	margin-left: auto;
 	gap: $indent;
 }
 
-.nav__list--site,
-.nav__list--auth {
+.nav__list,
+.contacts {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -52,7 +57,7 @@
 	}
 }
 
-.nav__link--auth {
+.contacts__link {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -70,7 +75,7 @@
 	}
 }
 
-.nav__icon {
+.contacts__icon {
 	fill: currentColor;
 }
 
